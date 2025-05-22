@@ -1,0 +1,17 @@
+/* ---------------------------------------------------------------------- */
+
+/* -----------------------------logo stylings---------------------------- */
+
+#homepage {
+    position: relative;
+    text-align: center;
+}
+
+.homepageimg {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;    
+    left: auto; 
+    z-index: 1000;  
+}

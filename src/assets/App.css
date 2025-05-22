@@ -1,0 +1,113 @@
+/* -------------------------------------------------------------------- */
+
+/* ---------------------------Global stylings-------------------------- */
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  background-color: #d7f777;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* ----------------------------webchat stylings-------------------------- */
+/* .WebChatContainer {
+  position: absolute;
+  left: 7.5%;
+  right: 5%;
+  top: 10%;
+  bottom: 3%;
+  z-index: 60;
+  border: none;
+} */
+
+.WebChatContainer {
+  position: absolute;
+  width: 500px;
+  right: 0;
+  top: 10%;
+  z-index: 60;
+  bottom: 0px;
+}
+
+#WACContainer.WACContainer .WebChatStyles {
+  position: relative;
+  transition: right 500ms ease-in-out;
+}
+
+#WACContainer.WACContainer .HideWebChat {
+  display: none;
+}
+
+#WACContainer.WACContainer .StartOpenAnimation {
+  transition: none;
+  right: -500px;
+}
+
+#WACContainer.WACContainer .OpenAnimation {
+  right: 16px;
+}
+
+#WACContainer.WACContainer .CloseAnimation {
+  right: -500px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* @media (max-width: 640px) {
+  .WebChatContainer {
+    width: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .WebChatContainer {
+    width: 320px;
+  }
+} */
+
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------Main Body Stylings------------------------- */
+
+
+#body-main {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------- */
+
+
+@media (min-width: 640px) {
+
+  .homepageimg {
+    height: 4rem;
+    width: 238.547px;
+  }
+
+  #refresh-button {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+/* ---------------------------------------------------------------------- */

@@ -1,0 +1,42 @@
+#quicklink {
+    padding: 30px 50px;
+}
+
+.quicklink-ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    gap: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link-list {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    color: #fff;
+    text-align: left;
+}
+
+.link-list:hover {
+    text-decoration: none;
+}
+
+.quicklink-upper {
+    font-size: 16px;
+    margin-top: 0%;
+    margin-bottom: 1.5rem;
+    opacity: .8;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+.icon {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
