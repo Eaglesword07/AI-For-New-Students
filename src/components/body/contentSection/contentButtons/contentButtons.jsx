@@ -10,6 +10,7 @@ const ContentButtons = () => {
     , []);
 
     return (
+        
         <div className={`border2 ${isOpen ? 'open' : ''}`} style={{willChange: 'opacity, transform', transform: 'none'}}>
             <div className="button1">
                 <a href="" aria-label="Find your course" className="button-1">Find your course</a>
@@ -18,6 +19,7 @@ const ContentButtons = () => {
                 <a href="" aria-label="Why Hull?" className="button-1">Why Hull?</a>
             </div>
         </div>
+        
     )
 };
 
